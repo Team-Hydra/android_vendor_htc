@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/pyramid/proprietary/bin/rild:system/bin/rild \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -76,4 +77,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/pyramid/proprietary/app/Camera2.apk:system/app/Camera2.apk \
-  vendor/htc/pyramid/proprietary/app/Camera2.apk:system/priv-app/Camera2.apk
+  vendor/htc/pyramid/proprietary/app/Camera2.apk:system/priv-app/Camera2.apk \
+  vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so
