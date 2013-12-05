@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
   vendor/htc/shooter/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/shooter/proprietary/system/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/shooter/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
+  vendor/htc/shooter/proprietary/system/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
   vendor/htc/shooter/proprietary/system/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/shooter/proprietary/system/lib/hw/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
   vendor/htc/shooter/proprietary/system/lib/hw/vendor-camera.msm8660.so:/system/lib/hw/vendor-camera.msm8660.so \
@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
   vendor/htc/shooter/proprietary/system/lib/libhtcdm.so:/system/lib/libhtcdm.so \
   vendor/htc/shooter/proprietary/system/lib/libidl.so:/system/lib/libidl.so \
+  vendor/htc/shooter/proprietary/system/lib/libllvm-arm.so:/system/lib/libllvm-arm.so \
   vendor/htc/shooter/proprietary/system/lib/libmllite.so:/system/lib/libmllite.so \
   vendor/htc/shooter/proprietary/system/lib/libmlplatform.so:/system/lib/libmlplatform.so \
   vendor/htc/shooter/proprietary/system/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
@@ -94,6 +95,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libnetmgr.so:/system/lib/libnetmgr.so \
   vendor/htc/shooter/proprietary/system/lib/liboemcamera.so:/system/lib/liboemcamera.so \
   vendor/htc/shooter/proprietary/system/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
+  vendor/htc/shooter/proprietary/system/lib/libOpenCL.so:/system/lib/libOpenCL.so \
   vendor/htc/shooter/proprietary/system/lib/libOpenVG.so:/system/lib/libOpenVG.so \
   vendor/htc/shooter/proprietary/system/lib/libposteffect.so:/system/lib/libposteffect.so \
   vendor/htc/shooter/proprietary/system/lib/libqc-opt.so:/system/lib/libqc-opt.so \
