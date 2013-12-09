@@ -82,9 +82,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/holiday/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/holiday/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/holiday/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/holiday/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/holiday/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/holiday/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/holiday/proprietary/lib/libllvm-arm.so:/system/lib/libllvm-arm.so \
   vendor/htc/holiday/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+  vendor/htc/holiday/proprietary/lib/libOpenCL.so:system/lib/libOpenVG.so \
   vendor/htc/holiday/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/holiday/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/holiday/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
