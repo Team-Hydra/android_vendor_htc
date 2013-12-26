@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-        vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.msm8660.so:obj/lib/hw/vendor-camera.msm8660.so
+        vendor/htc/pyramid/proprietary/lib/hw/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/pyramid/proprietary/lib/hw/vendor-camera.msm8660.so:system/lib/hw/vendor-camera.msm8660.so \
+  vendor/htc/pyramid/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \

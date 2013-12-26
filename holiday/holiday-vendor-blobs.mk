@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/holiday/proprietary/lib/libnv.so:obj/lib/libnv.so \
   vendor/htc/holiday/proprietary/lib/libv8.so:obj/lib/libv8.so \
   vendor/htc/holiday/proprietary/lib/libqc-opt.so:obj/lib/libqc-opt.so \
-  vendor/htc/holiday/proprietary/lib/hw/vendor-camera.msm8660.so:obj/lib/hw/vendor-camera.msm8660.so
+  vendor/htc/holiday/proprietary/lib/hw/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/holiday/proprietary/etc/vpimg:system/etc/vpimg \
@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/holiday/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/holiday/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/holiday/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-  vendor/htc/holiday/proprietary/lib/hw/vendor-camera.msm8660.so:system/lib/hw/vendor-camera.msm8660.so \
+  vendor/htc/holiday/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
   vendor/htc/holiday/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/holiday/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/holiday/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \

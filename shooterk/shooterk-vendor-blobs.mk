@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooterk/proprietary/system/lib/hw/vendor-camera.msm8660.so:obj/lib/hw/vendor-camera.msm8660.so \
+    vendor/htc/shooterk/proprietary/system/lib/hw/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so \
     vendor/htc/shooterk/proprietary/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooterk/proprietary/system/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooterk/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooterk/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/shooterk/proprietary/system/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/shooterk/proprietary/system/lib/hw/sensors.shooterk.so:/system/lib/hw/sensors.shooterk.so \
-  vendor/htc/shooterk/proprietary/system/lib/hw/vendor-camera.msm8660.so:/system/lib/hw/vendor-camera.msm8660.so \
+  vendor/htc/shooterk/proprietary/system/lib/hw/camera.vendor.msm8660.so:/system/lib/hw/camera.vendor.msm8660.so \
   vendor/htc/shooterk/proprietary/system/lib/libacdbloader.so:/system/lib/libacdbloader.so \
   vendor/htc/shooterk/proprietary/system/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
   vendor/htc/shooterk/proprietary/system/lib/libaudcal.so:/system/lib/libaudcal.so \
