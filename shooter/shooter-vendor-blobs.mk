@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/system/lib/hw/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so \
     vendor/htc/shooter/proprietary/system/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/system/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so
+    vendor/htc/shooter/proprietary/system/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+    vendor/htc/shooter/proprietary/system/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/bin/3D_calibration:/system/bin/3D_calibration \
@@ -30,12 +31,15 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/bin/htcbatt:/system/bin/htcbatt \
   vendor/htc/shooter/proprietary/system/bin/load-modem.sh:/system/bin/load-modem.sh \
   vendor/htc/shooter/proprietary/system/bin/logcat2:/system/bin/logcat2 \
+  vendor/htc/shooter/proprietary/system/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
+  vendor/htc/shooter/proprietary/system/bin/mpdecision:/system/bin/mpdecision \
   vendor/htc/shooter/proprietary/system/bin/netmgrd:/system/bin/netmgrd \
   vendor/htc/shooter/proprietary/system/bin/qmuxd:/system/bin/qmuxd \
   vendor/htc/shooter/proprietary/system/bin/rmt_storage:/system/bin/rmt_storage \
   vendor/htc/shooter/proprietary/system/bin/sequansd:/system/bin/sequansd \
   vendor/htc/shooter/proprietary/system/bin/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
   vendor/htc/shooter/proprietary/system/bin/sound8x60:/system/bin/sound8x60 \
+  vendor/htc/shooter/proprietary/system/bin/thermald:/system/bin/thermald \
   vendor/htc/shooter/proprietary/system/bin/wimax_mtd:/system/bin/wimax_mtd \
   vendor/htc/shooter/proprietary/system/bin/wimaxAddRoute:/system/bin/wimaxAddRoute \
   vendor/htc/shooter/proprietary/system/bin/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
@@ -63,11 +67,19 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libacdbmapper.so:/system/lib/libacdbmapper.so \
   vendor/htc/shooter/proprietary/system/lib/libaudcal.so:/system/lib/libaudcal.so \
   vendor/htc/shooter/proprietary/system/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
+  vendor/htc/shooter/proprietary/system/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
   vendor/htc/shooter/proprietary/system/lib/libC2D2.so:/system/lib/libC2D2.so \
   vendor/htc/shooter/proprietary/system/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
+  vendor/htc/shooter/proprietary/system/lib/libcameraasd.so:/system/lib/libcameraasd.so \
   vendor/htc/shooter/proprietary/system/lib/libcameraface.so:/system/lib/libcameraface.so \
   vendor/htc/shooter/proprietary/system/lib/libcamerapp.so:/system/lib/libcamerapp.so \
   vendor/htc/shooter/proprietary/system/lib/libcameraSP.so:/system/lib/libcameraSP.so \
+  vendor/htc/shooter/proprietary/system/lib/libcam_oem_plugin.so:/system/lib/libcam_oem_plugin.so \
+  vendor/htc/shooter/proprietary/system/lib/libchromatix_s5k3h1gx_default_video.so:/system/lib/libchromatix_s5k3h1gx_default_video.so \
+  vendor/htc/shooter/proprietary/system/lib/libchromatix_s5k3h1gx_hdr.so:/system/lib/libchromatix_s5k3h1gx_hdr.so \
+  vendor/htc/shooter/proprietary/system/lib/libchromatix_s5k3h1gx_hfr.so:/system/lib/libchromatix_s5k3h1gx_hfr.so \
+  vendor/htc/shooter/proprietary/system/lib/libchromatix_s5k3h1gx_preview.so:/system/lib/libchromatix_s5k3h1gx_preview.so \
+  vendor/htc/shooter/proprietary/system/lib/libchromatix_s5k3h1gx_zsl.so:/system/lib/libchromatix_s5k3h1gx_zsl.so \
   vendor/htc/shooter/proprietary/system/lib/libcryp98.so:/system/lib/libcryp98.so \
   vendor/htc/shooter/proprietary/system/lib/libdiag.so:/system/lib/libdiag.so \
   vendor/htc/shooter/proprietary/system/lib/libdll.so:/system/lib/libdll.so \
@@ -78,29 +90,54 @@ PRODUCT_COPY_FILES += \
   vendor/htc/shooter/proprietary/system/lib/libgemini2.so:/system/lib/libgemini2.so \
   vendor/htc/shooter/proprietary/system/lib/libgsl.so:/system/lib/libgsl.so \
   vendor/htc/shooter/proprietary/system/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+  vendor/htc/shooter/proprietary/system/lib/libhtccamera.so:/system/lib/libhtccamera.so \
+  vendor/htc/shooter/proprietary/system/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
+  vendor/htc/shooter/proprietary/system/lib/libhtcdm.so:/system/lib/libhtcdm.so \
   vendor/htc/shooter/proprietary/system/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
   vendor/htc/shooter/proprietary/system/lib/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
   vendor/htc/shooter/proprietary/system/lib/libhtcdm.so:/system/lib/libhtcdm.so \
   vendor/htc/shooter/proprietary/system/lib/libidl.so:/system/lib/libidl.so \
+  vendor/htc/shooter/proprietary/system/lib/libimage-jpeg-dec-omx-comp.so:/system/lib/libimage-jpeg-dec-omx-comp.so \
+  vendor/htc/shooter/proprietary/system/lib/libimage-jpeg-enc-omx-comp.so:/system/lib/libimage-jpeg-enc-omx-comp.so \
+  vendor/htc/shooter/proprietary/system/lib/libimage-omx-common.so:/system/lib/libimage-omx-common.so \
   vendor/htc/shooter/proprietary/system/lib/libllvm-arm.so:/system/lib/libllvm-arm.so \
   vendor/htc/shooter/proprietary/system/lib/libmllite.so:/system/lib/libmllite.so \
   vendor/htc/shooter/proprietary/system/lib/libmlplatform.so:/system/lib/libmlplatform.so \
+  vendor/htc/shooter/proprietary/system/lib/libmm-abl.so:/system/lib/libmm-abl.so \
+  vendor/htc/shooter/proprietary/system/lib/libmm-abl-oem.so:/system/lib/libmm-abl-oem.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_faceproc.so:/system/lib/libmmcamera_faceproc.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_frameproc.so:/system/lib/libmmcamera_frameproc.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_hdr_lib.so:/system/lib/libmmcamera_hdr_lib.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_image_stab.so:/system/lib/libmmcamera_image_stab.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_interface2.so:/system/lib/libmmcamera_interface2.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_rawchipproc.so:/system/lib/libmmcamera_rawchipproc.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_statsproc30.so:/system/lib/libmmcamera_statsproc30.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
   vendor/htc/shooter/proprietary/system/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/shooter/proprietary/system/lib/libmmipl.so:/system/lib/libmmipl.so \
   vendor/htc/shooter/proprietary/system/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
   vendor/htc/shooter/proprietary/system/lib/libmmjpeg2.so:/system/lib/libmmjpeg2.so \
   vendor/htc/shooter/proprietary/system/lib/libmmjps.so:/system/lib/libmmjps.so \
   vendor/htc/shooter/proprietary/system/lib/libmmmpo.so:/system/lib/libmmmpo.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmmpod.so:/system/lib/libmmmpod.so \
+  vendor/htc/shooter/proprietary/system/lib/libmm-omxcore.so:/system/lib/libmm-omxcore.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmstereo.so:/system/lib/libmmstereo.so \
+  vendor/htc/shooter/proprietary/system/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
   vendor/htc/shooter/proprietary/system/lib/libmpl.so:/system/lib/libmpl.so \
   vendor/htc/shooter/proprietary/system/lib/libnetmgr.so:/system/lib/libnetmgr.so \
   vendor/htc/shooter/proprietary/system/lib/liboemcamera.so:/system/lib/liboemcamera.so \
   vendor/htc/shooter/proprietary/system/lib/libOlaEngine.so:/system/lib/libOlaEngine.so \
+  vendor/htc/shooter/proprietary/system/lib/libOlaEngineNew.so:/system/lib/libOlaEngineNew.so \
   vendor/htc/shooter/proprietary/system/lib/libOpenCL.so:/system/lib/libOpenCL.so \
   vendor/htc/shooter/proprietary/system/lib/libOpenVG.so:/system/lib/libOpenVG.so \
   vendor/htc/shooter/proprietary/system/lib/libposteffect.so:/system/lib/libposteffect.so \
+  vendor/htc/shooter/proprietary/system/lib/libqcomomxsample_jb.so:/system/lib/libqcomomxsample_jb.so \
   vendor/htc/shooter/proprietary/system/lib/libqc-opt.so:/system/lib/libqc-opt.so \
   vendor/htc/shooter/proprietary/system/lib/libqdp.so:/system/lib/libqdp.so \
   vendor/htc/shooter/proprietary/system/lib/libqmi.so:/system/lib/libqmi.so \
   vendor/htc/shooter/proprietary/system/lib/libqmiservices.so:/system/lib/libqmiservices.so \
   vendor/htc/shooter/proprietary/system/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+  vendor/htc/shooter/proprietary/system/lib/libv8.so:/system/lib/libv8.so \
   vendor/htc/shooter/proprietary/system/xbin/wireless_modem:/system/xbin/wireless_modem
+
